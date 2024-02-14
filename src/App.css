@@ -1,38 +1,133 @@
-.App {
-  text-align: center;
+.index {
+  background-color: #080808;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.index .div {
+  background-color: #080808;
+  height: 1024px;
+  position: relative;
+  width: 1440px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.index .group {
+  height: 378px;
+  left: 410px;
+  position: absolute;
+  top: 323px;
+  width: 620px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.index .group-2 {
+  height: 20px;
+  left: 579px;
+  position: absolute;
+  top: 720px;
+  width: 286px;
+}
+
+.index .text-wrapper {
+  color: #ffffff;
+  font-family: "Black Han Sans", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+}
+
+.index .text-wrapper-2 {
+  color: #d6a058;
+  font-family: "Black Han Sans", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 210px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+}
+
+.glassbox {
+  position: relative;
+  width: 250px;
+  height: 250px; /* Adjust the width as needed */
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background: linear-gradient(-30deg, #090909 -20%, #2A2A2A 100%);
+  border-radius: 32px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+}
+
+.totalbox
+{
+  padding-top: 9%;
+}
+
+.glassychat{
+  position: relative;
+  width: 250px;
+  height: 75px; /* Adjust the width as needed */
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background: linear-gradient(-30deg, #090909 -20%, #2A2A2A 100%);
+  border-radius: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+}
+
+.realglass{
+  position: relative;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background: linear-gradient(-30deg, #090909 -20%, #2A2A2A 100%);
+  border-radius: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+/* Login.css */
+.glassmorphism-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 620px;
+  height: 377.22px; /* Adjust the width as needed */
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background: linear-gradient(-30deg, #090909 -20%, #2A2A2A 100%);
+  border-radius: 32px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+}
+
+.glassmorphism-container form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.glassmorphism-container input,
+.glassmorphism-container button {
+  width: 400px;
+  margin-top: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.login-button:hover {
+  background-color: #f6b766;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
 }
