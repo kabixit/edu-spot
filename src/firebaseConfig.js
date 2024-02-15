@@ -8,13 +8,13 @@ import { getFirestore } from "firebase/firestore"
 import { getAnalytics } from 'firebase/analytics';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDC0LfB11OdFchb7k9iUq0f-V_fvTnU5Tk",
-  authDomain: "dosimpapp.firebaseapp.com",
-  projectId: "dosimpapp",
-  storageBucket: "dosimpapp.appspot.com",
-  messagingSenderId: "1022505073257",
-  appId: "1:1022505073257:web:20e308229b6625f9df00f8",
-  measurementId: "G-P7730TT08B"
+  apiKey: "AIzaSyDmSqczM7v-e5Ta6Qu_Nm9FW6QSnO_1udo",
+  authDomain: "eduspot0.firebaseapp.com",
+  projectId: "eduspot0",
+  storageBucket: "eduspot0.appspot.com",
+  messagingSenderId: "1008579376858",
+  appId: "1:1008579376858:web:cf9aa3c976af59ce6e97e3",
+  measurementId: "G-07MVF58QES"
 };
 
 const app = initializeApp(firebaseConfig);
