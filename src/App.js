@@ -7,9 +7,9 @@ import theme from './theme';
 import Login from './Login';
 import SignUp from './SignUp';
 import Home from './Home';
-import Achievements from './Achievements';
 import CoursePage from './CoursePage';
-
+import CourseDetails from './course/CourseDetails'; // Import CourseDetails component
+import CourseSearch from './CourseSearch';
 
 function App() {
   return (
@@ -20,8 +20,9 @@ function App() {
           <Route path='/Login' element={<Login />} />
           <Route path='/SignUp' element={<SignUp />} />
           <Route path='/Home' element={<Home />} />
-          <Route path='/Achievements' element={<Achievements />}/>
+          <Route path='/CourseSearch' element={<CourseSearch />} />
           <Route path='/CoursePage' element={<CoursePage />} />
+          <Route path='/course/:courseId' element={<CourseDetails />} /> 
         </Routes>
       </Router>
     </ChakraProvider>

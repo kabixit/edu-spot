@@ -63,7 +63,7 @@ const SignUp = () => {
               variant="filled"
               color="white"
               _focus={{
-                borderColor: '#D6A058',
+                borderColor: '#00ffff',
               }}
             />
             <Input
@@ -74,10 +74,10 @@ const SignUp = () => {
               variant="filled"
               color="white"
               _focus={{
-                borderColor: '#D6A058',
+                borderColor: '#00ffff',
               }}
             />
-            <Button type="submit" colorScheme="custom" bg="#D6A058" size="lg" fontFamily="'Black Han Sans', sans-serif">
+            <Button type="submit" colorScheme="custom" bg="#00ffff" size="lg" fontFamily="'Black Han Sans', sans-serif">
               Sign Up
             </Button>
           </Stack>

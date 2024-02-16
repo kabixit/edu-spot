@@ -27,11 +27,11 @@ const NavBar = () => {
           <Link color="white" fontWeight="bold" mr={20} onClick={() => navigate('/Home')} _hover={{ color: '#00ffff' }}>
             Home
           </Link>
-          <Link color="white" fontWeight="bold" mr={20} onClick={() => navigate('/Courses')} _hover={{ color: '#00ffff' }}>
+          <Link color="white" fontWeight="bold" mr={20} onClick={() => navigate('/CoursePage')} _hover={{ color: '#00ffff' }}>
             Courses
           </Link>
-          <Link color="white" fontWeight="bold" onClick={() => navigate('/Achievements')} _hover={{ color: '#00ffff' }}>
-            Achievements
+          <Link color="white" fontWeight="bold" onClick={() => navigate('/CourseSearch')} _hover={{ color: '#00ffff' }}>
+            Course Search
           </Link>
         </Box>
         <Spacer />
